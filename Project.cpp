@@ -27,7 +27,6 @@ int main()
     FILE* Library = nullptr;
     Games* game = nullptr;
     fopen_s(&Library, "Library.txt", "r");
-    char exit[100] = "exit";
     char now[100] = "";
     char akk[100] = "";
     char pass[4] = "";
